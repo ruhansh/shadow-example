@@ -1,0 +1,14 @@
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ []
+
+ :dev-http {3000 "public"}
+ :nrepl {:port 8777}
+ :builds
+ {:frontend
+  {:target  :browser
+   :modules {:main {:init-fn shadow-example.core/init}}}}}
