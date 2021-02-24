@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bugout": "^0.0.11",
+    "readable-stream": "^2.0.2",
     "webtorrent": "^0.114.1"
   }
 }
